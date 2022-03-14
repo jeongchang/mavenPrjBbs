@@ -4,4 +4,18 @@
   <artifactId>bbs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-api -->
+	<dependency>
+	    <groupId>org.apache.tomcat</groupId>
+	    <artifactId>tomcat-api</artifactId>
+	    <version>9.0.52</version>
+	</dependency>
+  </dependencies>
+  
+  <properties>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 </project>
